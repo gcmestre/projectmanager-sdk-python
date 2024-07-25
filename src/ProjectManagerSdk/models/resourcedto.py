@@ -127,4 +127,10 @@ class ResourceDto:
     value to False will make this user unable to access this Workspace.
     """
 
+    createdDate: str | None = None
 
+    createdBy: str | None = None
+
+    modifiedDate: str | None = None
+
+    modifiedBy: str | None = None
